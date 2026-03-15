@@ -25,6 +25,8 @@ export default defineConfig([
     },
     rules: {
       'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
+      indent: ['error', 'tab'],
+      'react/prop-types': [0],
     },
   },
   eslintConfigPrettier,
